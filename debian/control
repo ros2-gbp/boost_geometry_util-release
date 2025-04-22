@@ -1,0 +1,12 @@
+Source: ros-kilted-boost-geometry-util
+Section: misc
+Priority: optional
+Maintainer: masaya <ms.kataoka@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-kilted-ament-cmake, ros-kilted-ament-cmake-auto, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-geometry-msgs, ros-kilted-ouxt-common <!nocheck>, ros-kilted-rclcpp, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-boost-geometry-util
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-kilted-geometry-msgs, ros-kilted-rclcpp, ros-kilted-ros-workspace
+Description: Utility library for boost geometry
