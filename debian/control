@@ -1,0 +1,12 @@
+Source: ros-lyrical-boost-geometry-util
+Section: misc
+Priority: optional
+Maintainer: masaya <ms.kataoka@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-lyrical-ament-cmake, ros-lyrical-ament-cmake-auto, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-geometry-msgs, ros-lyrical-ouxt-common <!nocheck>, ros-lyrical-rclcpp, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/boost_geometry_util/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-boost-geometry-util
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-lyrical-geometry-msgs, ros-lyrical-rclcpp, ros-lyrical-ros-workspace
+Description: Utility library for boost geometry
