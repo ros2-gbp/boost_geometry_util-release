@@ -1,1 +1,1 @@
-{"base": "2bb5d4a30f08", "parent": "debian/rolling/boost_geometry_util", "previous": "fa331f9f7eea", "trim": "", "trimbase": ""}
+{"base": "1adcf58", "parent": "debian/lyrical/boost_geometry_util", "previous": "ed23f9b", "trim": "", "trimbase": ""}
